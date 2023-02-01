@@ -23,6 +23,7 @@ public class Application extends Frame implements WindowListener
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
 		//this.f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
 		this.setTitle("tutoriel git");
 		this.add(vue);
 		this.pack();
