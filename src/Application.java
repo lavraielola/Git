@@ -24,11 +24,11 @@ public class Application extends Frame implements WindowListener
 		vue.addActionListener(ctrl);
 		//this.f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
-		this.setTitle(";jgfs");
+
+		this.setTitle("choubidou");
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
-
 	}
 
 	@Override
