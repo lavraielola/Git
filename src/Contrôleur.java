@@ -13,6 +13,7 @@ public class Contrôleur implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		refModl.incrémente();
+		System.out.println("e.");
 	}
 
 	
